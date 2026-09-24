@@ -14,15 +14,15 @@ and a cross-package dependency.
 
 | Package | What it does |
 | --- | --- |
-| [`@aritro-tech/addition`](packages/@aritro-tech/addition) | `add`, `sum`, `runningTotal`, `addPrecise` |
-| [`@aritro-tech/subtraction`](packages/@aritro-tech/subtraction) | `subtract`, `difference`, `deltas`, `subtractPrecise` |
-| [`@aritro-tech/multiplication`](packages/@aritro-tech/multiplication) | `multiply`, `product`, `power`, `percentOf` |
-| [`@aritro-tech/regex`](packages/@aritro-tech/regex) | Anchored validation patterns, `classify`, `escape`, `toSlug` |
-| [`@aritro-tech/calculator`](packages/@aritro-tech/calculator) | Chainable calculator; **depends on the three arithmetic packages** |
+| [`@aritro2002/addition`](packages/@aritro2002/addition) | `add`, `sum`, `runningTotal`, `addPrecise` |
+| [`@aritro2002/subtraction`](packages/@aritro2002/subtraction) | `subtract`, `difference`, `deltas`, `subtractPrecise` |
+| [`@aritro2002/multiplication`](packages/@aritro2002/multiplication) | `multiply`, `product`, `power`, `percentOf` |
+| [`@aritro2002/regex`](packages/@aritro2002/regex) | Anchored validation patterns, `classify`, `escape`, `toSlug` |
+| [`@aritro2002/calculator`](packages/@aritro2002/calculator) | Chainable calculator; **depends on the three arithmetic packages** |
 
 `calculator` is the one package with workspace dependencies. It exists to show
 how a package in this repo consumes its siblings — during development npm links
-them from `node_modules/@aritro-tech/*`, and on publish they resolve from the
+them from `node_modules/@aritro2002/*`, and on publish they resolve from the
 registry by version range.
 
 ## Layout
@@ -34,7 +34,7 @@ registry by version range.
 ├── tsconfig.json             # shared compiler options + path aliases
 ├── eslint.config.mjs
 ├── example/                  # runnable demo of every package
-└── packages/@aritro-tech/
+└── packages/@aritro2002/
     ├── addition/
     │   ├── src/index.ts
     │   ├── src/index.test.ts
@@ -101,7 +101,7 @@ Requires Node 18+; Node 22.6+ for the strip-types flag.
 
 ## Adding a package
 
-1. `mkdir -p packages/@aritro-tech/<name>/src`
+1. `mkdir -p packages/@aritro2002/<name>/src`
 2. Copy `package.json`, `tsconfig.json`, `tsconfig.build.json`, `LICENSE` and
    the dotfiles from an existing package, and update the name, description,
    keywords and `repository.directory`.
@@ -119,7 +119,7 @@ npx lerna version --conventional-commits   # bump, changelog, tag
 npm run release                            # lerna publish
 ```
 
-Publishing under `@aritro-tech` requires that npm scope to exist and
+Publishing under `@aritro2002` requires that npm scope to exist and
 `publishConfig.access` to stay `public`.
 
 ## License

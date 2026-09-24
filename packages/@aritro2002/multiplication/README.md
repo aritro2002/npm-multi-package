@@ -1,11 +1,11 @@
-# @aritro-tech/multiplication
+# @aritro2002/multiplication
 
 Multiplication helpers that validate their input and keep float drift out of the result.
 
 ## Install
 
 ```sh
-npm install @aritro-tech/multiplication
+npm install @aritro2002/multiplication
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import {
   power,
   percentOf,
   multiplyPrecise,
-} from '@aritro-tech/multiplication';
+} from '@aritro2002/multiplication';
 
 multiply(3, 4); // 12
 product(2, 3, 4); // 24

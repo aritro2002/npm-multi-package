@@ -1,7 +1,7 @@
 {
-  "name": "@aritro-tech/addition",
+  "name": "@aritro2002/subtraction",
   "version": "0.1.0",
-  "description": "Add numbers safely: sum, sumAll and running totals",
+  "description": "Subtract numbers safely: subtract, difference and chained subtraction",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -29,22 +29,22 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "keywords": [
-    "add",
-    "sum",
+    "subtract",
+    "difference",
     "math",
     "arithmetic"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/aritro2002/npm-multi-package",
-    "directory": "packages/@aritro-tech/addition"
+    "directory": "packages/@aritro2002/subtraction"
   },
   "author": "aritro2002",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aritro2002/npm-multi-package/issues"
   },
-  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro-tech/addition#readme",
+  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro2002/subtraction#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

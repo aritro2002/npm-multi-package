@@ -1,7 +1,7 @@
 {
-  "name": "@aritro-tech/regex",
+  "name": "@aritro2002/calculator",
   "version": "0.1.0",
-  "description": "Reusable, anchored regular expressions for common validation",
+  "description": "Chainable calculator built on the arithmetic packages",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -29,22 +29,21 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "keywords": [
-    "regex",
-    "validation",
-    "email",
-    "slug"
+    "calculator",
+    "math",
+    "chainable"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/aritro2002/npm-multi-package",
-    "directory": "packages/@aritro-tech/regex"
+    "directory": "packages/@aritro2002/calculator"
   },
   "author": "aritro2002",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aritro2002/npm-multi-package/issues"
   },
-  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro-tech/regex#readme",
+  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro2002/calculator#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -52,7 +51,11 @@
   "engines": {
     "node": ">=18"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@aritro2002/addition": "^0.1.0",
+    "@aritro2002/subtraction": "^0.1.0",
+    "@aritro2002/multiplication": "^0.1.0"
+  },
   "devDependencies": {
     "typescript": "^5.9.2"
   }

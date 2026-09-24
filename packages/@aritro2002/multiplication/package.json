@@ -1,5 +1,5 @@
 {
-  "name": "@aritro-tech/multiplication",
+  "name": "@aritro2002/multiplication",
   "version": "0.1.0",
   "description": "Multiply numbers safely: multiply, product and power",
   "type": "module",
@@ -37,14 +37,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/aritro2002/npm-multi-package",
-    "directory": "packages/@aritro-tech/multiplication"
+    "directory": "packages/@aritro2002/multiplication"
   },
   "author": "aritro2002",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aritro2002/npm-multi-package/issues"
   },
-  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro-tech/multiplication#readme",
+  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro2002/multiplication#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

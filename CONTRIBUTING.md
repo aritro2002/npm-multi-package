@@ -10,12 +10,12 @@ npm test
 
 ## Working on a package
 
-Packages live in `packages/@aritro-tech/<name>`. Run a script for one package
+Packages live in `packages/@aritro2002/<name>`. Run a script for one package
 with npm's workspace flag:
 
 ```sh
-npm run test -w @aritro-tech/regex
-npm run build -w @aritro-tech/calculator
+npm run test -w @aritro2002/regex
+npm run build -w @aritro2002/calculator
 ```
 
 ## Conventions

@@ -1,4 +1,4 @@
-# @aritro-tech/regex
+# @aritro2002/regex
 
 Anchored, reusable regular expressions for everyday validation, plus a couple of
 string helpers.
@@ -6,13 +6,13 @@ string helpers.
 ## Install
 
 ```sh
-npm install @aritro-tech/regex
+npm install @aritro2002/regex
 ```
 
 ## Usage
 
 ```ts
-import { isEmail, isSemver, classify, escape, toSlug } from '@aritro-tech/regex';
+import { isEmail, isSemver, classify, escape, toSlug } from '@aritro2002/regex';
 
 isEmail('dev@example.com'); // true
 isEmail('dev@example.com extra'); // false — patterns are anchored
@@ -30,7 +30,7 @@ toSlug('  Héllo,  World! '); // 'hello-world'
 Each is exposed as a **factory** on `patterns`, not a shared instance:
 
 ```ts
-import { patterns } from '@aritro-tech/regex';
+import { patterns } from '@aritro2002/regex';
 
 patterns.email().test('dev@example.com');
 ```

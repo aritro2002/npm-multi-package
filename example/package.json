@@ -1,5 +1,5 @@
 {
-  "name": "@aritro-tech/example",
+  "name": "@aritro2002/example",
   "version": "0.0.0",
   "private": true,
   "description": "Runnable demo of every package in this monorepo",
@@ -9,11 +9,11 @@
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "@aritro-tech/addition": "^0.1.0",
-    "@aritro-tech/calculator": "^0.1.0",
-    "@aritro-tech/multiplication": "^0.1.0",
-    "@aritro-tech/regex": "^0.1.0",
-    "@aritro-tech/subtraction": "^0.1.0"
+    "@aritro2002/addition": "^0.1.0",
+    "@aritro2002/calculator": "^0.1.0",
+    "@aritro2002/multiplication": "^0.1.0",
+    "@aritro2002/regex": "^0.1.0",
+    "@aritro2002/subtraction": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^5.9.2"

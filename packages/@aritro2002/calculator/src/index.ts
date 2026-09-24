@@ -1,6 +1,6 @@
-import { add, sumAll } from '@aritro-tech/addition';
-import { multiply, percentOf } from '@aritro-tech/multiplication';
-import { subtract } from '@aritro-tech/subtraction';
+import { add, sumAll } from '@aritro2002/addition';
+import { multiply, percentOf } from '@aritro2002/multiplication';
+import { subtract } from '@aritro2002/subtraction';
 
 export type CalculatorStep = {
   op: 'add' | 'subtract' | 'multiply' | 'divide' | 'percent';

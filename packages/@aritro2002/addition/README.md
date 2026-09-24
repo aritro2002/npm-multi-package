@@ -1,17 +1,17 @@
-# @aritro-tech/addition
+# @aritro2002/addition
 
 Addition helpers that validate their input and keep float drift out of the result.
 
 ## Install
 
 ```sh
-npm install @aritro-tech/addition
+npm install @aritro2002/addition
 ```
 
 ## Usage
 
 ```ts
-import { add, sum, sumAll, runningTotal, addPrecise } from '@aritro-tech/addition';
+import { add, sum, sumAll, runningTotal, addPrecise } from '@aritro2002/addition';
 
 add(2, 3); // 5
 sum(1, 2, 3, 4); // 10

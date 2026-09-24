@@ -1,4 +1,4 @@
-# @aritro-tech/calculator
+# @aritro2002/calculator
 
 A chainable, immutable calculator built on the sibling arithmetic packages. It
 is the one package here with workspace dependencies, so it also shows how the
@@ -7,16 +7,16 @@ monorepo links packages together.
 ## Install
 
 ```sh
-npm install @aritro-tech/calculator
+npm install @aritro2002/calculator
 ```
 
-It pulls in `@aritro-tech/addition`, `@aritro-tech/subtraction` and
-`@aritro-tech/multiplication`.
+It pulls in `@aritro2002/addition`, `@aritro2002/subtraction` and
+`@aritro2002/multiplication`.
 
 ## Usage
 
 ```ts
-import { calc, Calculator } from '@aritro-tech/calculator';
+import { calc, Calculator } from '@aritro2002/calculator';
 
 calc(10).add(5).subtract(3).multiply(2).value(); // 24
 

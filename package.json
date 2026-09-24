@@ -10,12 +10,12 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,mjs,ts}\"",
     "lerna": "lerna",
-    "example": "npm start -w @aritro-tech/example",
+    "example": "npm start -w @aritro2002/example",
     "release": "lerna publish --conventional-commits",
     "pretest": "lerna run build"
   },
   "workspaces": [
-    "packages/@aritro-tech/*",
+    "packages/@aritro2002/*",
     "example"
   ],
   "devDependencies": {

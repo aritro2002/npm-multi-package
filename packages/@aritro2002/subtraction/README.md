@@ -1,11 +1,11 @@
-# @aritro-tech/subtraction
+# @aritro2002/subtraction
 
 Subtraction helpers that validate their input and keep float drift out of the result.
 
 ## Install
 
 ```sh
-npm install @aritro-tech/subtraction
+npm install @aritro2002/subtraction
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ import {
   difference,
   deltas,
   subtractPrecise,
-} from '@aritro-tech/subtraction';
+} from '@aritro2002/subtraction';
 
 subtract(10, 4); // 6
 subtractAll([10, 3, 2]); // 5

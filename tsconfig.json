@@ -22,25 +22,25 @@
     "strict": true,
     "target": "ES2022",
     "paths": {
-      "@aritro-tech/addition": [
-        "./packages/@aritro-tech/addition/src/index.ts"
+      "@aritro2002/addition": [
+        "./packages/@aritro2002/addition/src/index.ts"
       ],
-      "@aritro-tech/subtraction": [
-        "./packages/@aritro-tech/subtraction/src/index.ts"
+      "@aritro2002/subtraction": [
+        "./packages/@aritro2002/subtraction/src/index.ts"
       ],
-      "@aritro-tech/multiplication": [
-        "./packages/@aritro-tech/multiplication/src/index.ts"
+      "@aritro2002/multiplication": [
+        "./packages/@aritro2002/multiplication/src/index.ts"
       ],
-      "@aritro-tech/regex": [
-        "./packages/@aritro-tech/regex/src/index.ts"
+      "@aritro2002/regex": [
+        "./packages/@aritro2002/regex/src/index.ts"
       ],
-      "@aritro-tech/calculator": [
-        "./packages/@aritro-tech/calculator/src/index.ts"
+      "@aritro2002/calculator": [
+        "./packages/@aritro2002/calculator/src/index.ts"
       ]
     }
   },
   "include": [
-    "packages/@aritro-tech/*/src/**/*",
+    "packages/@aritro2002/*/src/**/*",
     "example/src/**/*"
   ],
   "exclude": [
