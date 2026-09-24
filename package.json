@@ -1,0 +1,54 @@
+{
+  "name": "npm-multi-package",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A monorepo of small, independently published utility packages",
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "test": "lerna run test",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,mjs,ts}\"",
+    "lerna": "lerna",
+    "example": "npm start -w @aritro-tech/example",
+    "release": "lerna publish --conventional-commits",
+    "pretest": "lerna run build"
+  },
+  "workspaces": [
+    "packages/@aritro-tech/*",
+    "example"
+  ],
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.8.1",
+    "@types/node": "^22.10.2",
+    "commitlint": "^19.8.1",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "lerna": "^8.2.2",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.70.1"
+  },
+  "author": "aritro2002",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aritro2002/npm-multi-package"
+  },
+  "bugs": {
+    "url": "https://github.com/aritro2002/npm-multi-package/issues"
+  },
+  "homepage": "https://github.com/aritro2002/npm-multi-package#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

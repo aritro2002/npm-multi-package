@@ -1,0 +1,59 @@
+{
+  "name": "@aritro-tech/regex",
+  "version": "0.1.0",
+  "description": "Reusable, anchored regular expressions for common validation",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "lib",
+    "src",
+    "!src/**/*.test.ts",
+    "!**/*.tsbuildinfo"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf lib",
+    "prepublishOnly": "yarn build",
+    "test": "node --test --experimental-strip-types \"src/**/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "keywords": [
+    "regex",
+    "validation",
+    "email",
+    "slug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aritro2002/npm-multi-package",
+    "directory": "packages/@aritro-tech/regex"
+  },
+  "author": "aritro2002",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aritro2002/npm-multi-package/issues"
+  },
+  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro-tech/regex#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

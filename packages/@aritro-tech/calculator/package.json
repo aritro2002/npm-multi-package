@@ -1,0 +1,62 @@
+{
+  "name": "@aritro-tech/calculator",
+  "version": "0.1.0",
+  "description": "Chainable calculator built on the arithmetic packages",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "lib",
+    "src",
+    "!src/**/*.test.ts",
+    "!**/*.tsbuildinfo"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf lib",
+    "prepublishOnly": "yarn build",
+    "test": "node --test --experimental-strip-types \"src/**/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "keywords": [
+    "calculator",
+    "math",
+    "chainable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aritro2002/npm-multi-package",
+    "directory": "packages/@aritro-tech/calculator"
+  },
+  "author": "aritro2002",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aritro2002/npm-multi-package/issues"
+  },
+  "homepage": "https://github.com/aritro2002/npm-multi-package/tree/main/packages/@aritro-tech/calculator#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@aritro-tech/addition": "^0.1.0",
+    "@aritro-tech/subtraction": "^0.1.0",
+    "@aritro-tech/multiplication": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
